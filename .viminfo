@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :qa
-|2,0,1635577014,,"qa"
+|2,0,1635577686,,"qa"
+:wa
+|2,0,1635577685,,"wa"
 :Qa
 |2,0,1635577010,,"Qa"
-:wa
-|2,0,1635577009,,"wa"
 :w
 |2,0,1635574524,,"w"
 
@@ -31,36 +31,88 @@
 # Registers:
 
 # File marks:
-'0  5  56  ~/pull.sh
-|4,48,5,56,1635577014,"~/pull.sh"
-'1  43  0  ~/Commune/main/templates/register.html
-|4,49,43,0,1635574717,"~/Commune/main/templates/register.html"
-'2  20  49  ~/Commune/main/templates/register.html
-|4,50,20,49,1635574597,"~/Commune/main/templates/register.html"
-'3  20  49  ~/Commune/main/templates/register.html
-|4,51,20,49,1635574597,"~/Commune/main/templates/register.html"
-'4  1  0  ~/Commune/main/templates/register.py
-|4,52,1,0,1635574552,"~/Commune/main/templates/register.py"
-'5  20  14  ~/Commune/Commune/urls.py
-|4,53,20,14,1635574525,"~/Commune/Commune/urls.py"
-'6  26  12  ~/Commune/Commune/settings.py
-|4,54,26,12,1635574323,"~/Commune/Commune/settings.py"
-'7  27  0  ~/Commune/Commune/settings.py
-|4,55,27,0,1635574309,"~/Commune/Commune/settings.py"
-'8  27  0  ~/Commune/Commune/settings.py
-|4,56,27,0,1635574309,"~/Commune/Commune/settings.py"
-'9  20  35  ~/Commune/main/templates/register.html
-|4,57,20,35,1635574223,"~/Commune/main/templates/register.html"
+'0  2  0  ~/README
+|4,48,2,0,1635577686,"~/README"
+'1  6  14  ~/pull.sh
+|4,49,6,14,1635577645,"~/pull.sh"
+'2  5  56  ~/pull.sh
+|4,50,5,56,1635577014,"~/pull.sh"
+'3  43  0  ~/Commune/main/templates/register.html
+|4,51,43,0,1635574717,"~/Commune/main/templates/register.html"
+'4  20  49  ~/Commune/main/templates/register.html
+|4,52,20,49,1635574597,"~/Commune/main/templates/register.html"
+'5  20  49  ~/Commune/main/templates/register.html
+|4,53,20,49,1635574597,"~/Commune/main/templates/register.html"
+'6  1  0  ~/Commune/main/templates/register.py
+|4,54,1,0,1635574552,"~/Commune/main/templates/register.py"
+'7  20  14  ~/Commune/Commune/urls.py
+|4,55,20,14,1635574525,"~/Commune/Commune/urls.py"
+'8  26  12  ~/Commune/Commune/settings.py
+|4,56,26,12,1635574323,"~/Commune/Commune/settings.py"
+'9  27  0  ~/Commune/Commune/settings.py
+|4,57,27,0,1635574309,"~/Commune/Commune/settings.py"
 
 # Jumplist (newest first):
+-'  2  0  ~/README
+|4,39,2,0,1635577686,"~/README"
+-'  1  0  ~/README
+|4,39,1,0,1635577671,"~/README"
+-'  6  14  ~/pull.sh
+|4,39,6,14,1635577645,"~/pull.sh"
+-'  6  14  ~/pull.sh
+|4,39,6,14,1635577645,"~/pull.sh"
 -'  5  56  ~/pull.sh
 |4,39,5,56,1635577014,"~/pull.sh"
+-'  5  56  ~/pull.sh
+|4,39,5,56,1635577014,"~/pull.sh"
+-'  1  0  ~/pull.sh
+|4,39,1,0,1635576861,"~/pull.sh"
+-'  1  0  ~/pull.sh
+|4,39,1,0,1635576861,"~/pull.sh"
+-'  1  0  ~/pull.sh
+|4,39,1,0,1635576861,"~/pull.sh"
 -'  1  0  ~/pull.sh
 |4,39,1,0,1635576861,"~/pull.sh"
 -'  43  0  ~/Commune/main/templates/register.html
 |4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
 -'  43  0  ~/Commune/main/templates/register.html
 |4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  43  0  ~/Commune/main/templates/register.html
+|4,39,43,0,1635574717,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
+-'  35  0  ~/Commune/main/templates/register.html
+|4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
+-'  41  0  ~/Commune/main/templates/register.html
+|4,39,41,0,1635574648,"~/Commune/main/templates/register.html"
 -'  35  0  ~/Commune/main/templates/register.html
 |4,39,35,0,1635574648,"~/Commune/main/templates/register.html"
 -'  41  0  ~/Commune/main/templates/register.html
@@ -73,6 +125,30 @@
 |4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
 -'  20  49  ~/Commune/main/templates/register.html
 |4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574630,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
+-'  20  49  ~/Commune/main/templates/register.html
+|4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
 -'  20  49  ~/Commune/main/templates/register.html
 |4,39,20,49,1635574597,"~/Commune/main/templates/register.html"
 -'  20  49  ~/Commune/main/templates/register.html
@@ -93,6 +169,54 @@
 |4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
 -'  1  0  ~/Commune/main/templates/register.py
 |4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
+-'  1  0  ~/Commune/main/templates/register.py
+|4,39,1,0,1635574552,"~/Commune/main/templates/register.py"
 -'  20  14  ~/Commune/Commune/urls.py
 |4,39,20,14,1635574525,"~/Commune/Commune/urls.py"
 -'  20  14  ~/Commune/Commune/urls.py
@@ -125,148 +249,33 @@
 |4,39,20,14,1635574525,"~/Commune/Commune/urls.py"
 -'  20  14  ~/Commune/Commune/urls.py
 |4,39,20,14,1635574525,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  1  0  ~/Commune/Commune/urls.py
-|4,39,1,0,1635574452,"~/Commune/Commune/urls.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  26  12  ~/Commune/Commune/settings.py
-|4,39,26,12,1635574323,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
--'  27  0  ~/Commune/Commune/settings.py
-|4,39,27,0,1635574310,"~/Commune/Commune/settings.py"
+-'  20  14  ~/Commune/Commune/urls.py
+|4,39,20,14,1635574525,"~/Commune/Commune/urls.py"
+-'  20  14  ~/Commune/Commune/urls.py
+|4,39,20,14,1635574525,"~/Commune/Commune/urls.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/README
+	*	1635577685	0
+	"	2	0
+	^	2	0
+	.	1	10
+	+	2	0
+	+	1	10
+
 > ~/pull.sh
-	*	1635577010	0
-	"	5	56
-	^	5	57
-	.	5	55
+	*	1635577644	0
+	"	6	14
+	^	6	15
+	.	2	14
 	+	2	8
-	+	3	4
+	+	4	4
 	+	2	7
-	+	3	39
-	+	4	35
-	+	5	55
+	+	4	39
+	+	5	35
+	+	6	55
+	+	2	14
 
 > ~/Commune/main/templates/register.html
 	*	1635574715	0
