@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Style+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+  font-family: 'Lemon/Milk light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk light Regular'), url('fonts/LemonMilklight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Abnormal Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Abnormal Regular'), url('fonts/AbnormalRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Abnormal';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Abnormal'), url('fonts/AbnormalBold.otf') format('opentype');
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lemon/Milk light Regular", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: hsla(0, 7%, 3%, 0.966);
+}
+
+.thank-you-register {
+  padding-top: 5%;
+}
+
+.thank-you-text, .release-commune-text, .release-date-text {
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient( #ff4c4c,#ff4c4c,#FF7F50,#FF7F50 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  
+  background-clip: text;
+  font-size: 6rem;
+}
+
+.release-white-text { 
+  color: #FFFFFF; 
+  text-transform: uppercase;
+  text-align: center;
+  background-clip: text;
+  font-size: 6rem;
+}
+
+.release-commune-text {
+  font-size: 9rem;
+  margin: 2% 0 2% 0;
+}
+
+@media (max-width: 600px) {
+  html{
+    font-size: 5px;
+  }
+}

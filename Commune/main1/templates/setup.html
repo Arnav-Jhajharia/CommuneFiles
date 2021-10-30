@@ -1,0 +1,80 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup profile page-Commune</title>
+    <style>
+        .alignment {
+            position: relative;
+            text-align: center;
+        }
+
+        .text {
+            font-family: 'Trebuchet MS';
+            font-size: 24px;
+        }
+        #desc * {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body style="background-color:black;">
+    <form autofocus required method = "post" action = "{% url 'setup' %}"> {% csrf_token %}
+    <div id="setupdivs" class="text">
+        <div id="titlebar" class="alignment">
+            <img src="static/img/Commune Title Bar.jpeg" alt="COMMUNE" height="62px" style="margin-top:5px;">
+        </div>
+      
+        <div id="Profile Photo" class="alignment">
+            <a href="https://www.youtube.com/">
+                <img src="static/imgdpfp.png" alt="Default" href="" class="alignment" style="position:relative;width:125px;height:125px;display:inline-block;">
+            </a>
+        </div>
+        <div id="Pfp link" class="alignment">
+            <a href=""
+                style="margin-top:10px;font-family:Trebuchet ms;font-size:24px;display:block;text-decoration:none;color:coral;">Choose Profile Photo</a>
+        </div>
+        <br>
+        <div id="Uname" style="position:relative;margin-top:24px;text-align:center;">
+      
+                <label for="username" style="margin-right:140px;color:white;display:inline-block;">Username</label>
+                <input type="text" id="username" name="username" value=""
+                    style="width:500px;height:24px;border:none;border-bottom:2px solid;font-family:'Trebuchet MS';border-color:white;background-color:black;font-size:24px;color:white;display:inline-block;"><br>
+        </div>
+        <div id="desc"
+            style="position:relative;vertical-align:middle;margin-top:24px;text-align:center;">
+   
+                <label for="textarea" style="margin-right:130px;color:white;vertical-align:middle;display:inline-block;">Description</label>
+                <textarea rows="5" id="desc-input" name="description" value="" style="width:500px;height:100px;overflow-y:auto;border:none;border-bottom:2px solid;font-family:'Trebuchet MS';border-color:white;background-color:black;font-size:24px;height:auto;max-width:500px;color:white;display:inline-block;" maxlength="169"></textarea><br>
+        </div>
+        <br><br><br>
+        <div id="next" class="alignment">
+        
+                <input type="submit" value="Next" href=""
+                    style="background-color:coral;font-size:24px;border-radius:5px;width:100px;height:40px;margin-left:850px;color:white;">
+        </div>
+    </div>
+    </form>
+    <script>
+        document.addEventListener('DOMContentLoaded',
+            function () {
+                const yes = document.querySelector('#desc-input')
+                yes.onkeypress = function () {
+                    if (yes.value.length >= 169) {
+                        alert("You've reached the limit for description")
+                    }
+                    else {
+                        yes.disabled = false;
+                    }
+                }
+            })
+    </script>
+</body>
+</html>

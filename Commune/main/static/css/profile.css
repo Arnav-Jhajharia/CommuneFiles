@@ -1,0 +1,99 @@
+:root {
+  --margin-common: 3rem;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+.main .header {
+  max-height: 30%;
+}
+
+.main .header .profile-photo {
+  --padding: 15%;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: var(--margin-common) auto var(--margin-common) auto;
+  border: 1px solid red;
+  padding-top: var(--padding);
+  position: relative;
+  width: 15%; /* For width: 182.11px */
+  height: auto;
+  /* min-width: 10rem;
+  min-height: 10rem; */
+}
+
+.main .details {
+  padding: 2rem 0 2rem 0;
+}
+
+.main .details .username {
+  margin: 0 0 0 1rem;
+}
+.main .details .description {
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+.main .details .followers-posts {
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+.main .details .edit-profile-link {
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #52b2cf;
+}
+
+.main .posts-div {
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  /* height: min-content; */
+}
+
+.main .posts-div .posts {
+  flex: 0 0 31.33%;
+}
+
+/* @media screen and (min-width:0){
+  .main .header .profile-photo {
+    --padding: 30%;
+    min-width: 15rem;
+    min-height: auto;
+  }
+}
+@media screen and (min-width:505px){
+  .main .header .profile-photo {
+    --padding: 25%;
+    min-width: 25rem;
+    min-height: auto;
+  }
+}
+@media screen and (min-width:1000px){
+  .main .header .profile-photo {
+    --padding: 15%;
+    min-width: 25rem;
+    min-height: auto;
+  }
+} */
