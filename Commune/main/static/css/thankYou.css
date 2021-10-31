@@ -6,19 +6,19 @@
   font-family: 'Lemon/Milk light Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Lemon/Milk light Regular'), url('fonts/LemonMilklight.woff') format('woff');
+  src: local('Lemon/Milk light Regular'), url('../fonts/LemonMilklight.woff') format('woff');
 }
 @font-face {
   font-family: 'Abnormal Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Abnormal Regular'), url('fonts/AbnormalRegular.otf') format('opentype');
+  src: local('Abnormal Regular'), url('../fonts/AbnormalRegular.otf') format('opentype');
 }
 @font-face {
   font-family: 'Abnormal';
   font-style: normal;
   font-weight: normal;
-  src: local('Abnormal'), url('fonts/AbnormalBold.otf') format('opentype');
+  src: local('Abnormal'), url('../fonts/AbnormalBold.otf') format('opentype');
 }
 
 * {
